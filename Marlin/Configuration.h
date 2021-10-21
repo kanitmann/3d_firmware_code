@@ -147,7 +147,7 @@
 
 // Printer's unique ID, used by some programs to differentiate between machines.
 // Choose your own or use a service like https://www.uuidgenerator.net/version4
-//#define MACHINE_UUID "00000000-0000-0000-0000-000000000000"
+#define MACHINE_UUID "9cc0ca62-2709-48e4-9a17-c4a29d4986b4"
 
 /**
  * Define the number of coordinated linear axes.
@@ -916,7 +916,7 @@
  * Override with M92
  *                                      X, Y, Z [, I [, J [, K]]], E0 [, E1[, E2...]]
  */
-#define DEFAULT_AXIS_STEPS_PER_UNIT   { 100, 100, 2600, 95 }
+#define DEFAULT_AXIS_STEPS_PER_UNIT   { 100, 100, 100, 95 }
 
 /**
  * Default Max Feed Rate (mm/s)
@@ -1367,7 +1367,7 @@
 #define Z_MIN_POS 0
 #define X_MAX_POS X_BED_SIZE
 #define Y_MAX_POS Y_BED_SIZE
-#define Z_MAX_POS 280
+#define Z_MAX_POS 220
 //#define I_MIN_POS 0
 //#define I_MAX_POS 50
 //#define J_MIN_POS 0
